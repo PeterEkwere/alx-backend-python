@@ -3,7 +3,7 @@
     This Module contains basic annotation practices
     Author: Peter Ekwere
 """
-from typing import List, Tuple, Sequence, Iterable, NewType
+from typing import List, Tuple, Sequence, Iterable
 
 
 

@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """
     This Module contains basic practices on Async
     Author: Peter Ekwere

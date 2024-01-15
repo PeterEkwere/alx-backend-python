@@ -8,7 +8,7 @@ from random import uniform
 
 
 async def wait_random(max_delay: int = 10) -> float:
-    """ This Funcition is an asynchronous coroutine 
+    """ This Funcition is an asynchronous coroutine
     Args:
         max_delay (int, optional): this is the delay value. Defaults to 10.
 

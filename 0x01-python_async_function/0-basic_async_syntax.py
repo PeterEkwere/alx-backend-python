@@ -4,7 +4,7 @@
     Author: Peter Ekwere
 """
 import asyncio
-import random
+from random import uniform
 
 
 async def wait_random(max_delay: int = 10) -> float:
@@ -19,10 +19,7 @@ async def wait_random(max_delay: int = 10) -> float:
     Returns:
         float: what is returned is a float
     """
-    value = random.uniform(0, max_delay)
+    value = uniform(0, max_delay)
     await asyncio.sleep(value)
     return value
 
-
-if __name__ == "__main__":
-    pass

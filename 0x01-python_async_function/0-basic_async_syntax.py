@@ -16,5 +16,6 @@ async def wait_random(max_delay: int = 10) -> int:
     await asyncio.sleep(value)
     return value
 
+
 if __name__ == "__main__":
     pass

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""A github org client
+"""
+    This Module contains githubOrgClient class
+    Atuhor: Peter Ekwere
 """
 from typing import (
     List,

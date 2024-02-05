@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""test cases for the client module"""
-
+"""
+    This module contains test cases
+    Author: Peter Ekwere
+"""
 from unittest import TestCase
 import unittest
 from client import GithubOrgClient
